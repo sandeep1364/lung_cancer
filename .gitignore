@@ -43,15 +43,15 @@ venv.bak/
 *.pkl
 *.joblib
 
-# Data files
-data/
-*.csv
-*.jpg
-*.jpeg
-*.png
-*.tiff
-*.bmp
-*.gif
+# Data files (now managed by Git LFS)
+# data/  # Commented out to allow data directory
+*.csv filter=lfs diff=lfs merge=lfs -text
+*.jpg filter=lfs diff=lfs merge=lfs -text
+*.jpeg filter=lfs diff=lfs merge=lfs -text
+*.png filter=lfs diff=lfs merge=lfs -text
+*.tiff filter=lfs diff=lfs merge=lfs -text
+*.bmp filter=lfs diff=lfs merge=lfs -text
+*.gif filter=lfs diff=lfs merge=lfs -text
 
 # Trained models
 trained_models/
